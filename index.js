@@ -20,7 +20,27 @@ else{
 
 }
 
+}
+const data = new Array();
+function insert()  {
+data.push(document.getElementById("User id").Value);
+data.push(document.getElementById("Email id").Value);
+data.push(document.getElementById("password").Value);
+document.getElementById("User id").Value='';
+document.getElementById("Email id").Value='';
+document.getElementById("password").Value='';
+disp();
+}
+
+function disp() {
+window.location='homepage.html';
+alert("Successfully Registered");
+
 
 
 
 }
+
+
+
+
